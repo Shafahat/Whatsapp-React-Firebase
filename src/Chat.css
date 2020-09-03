@@ -1,0 +1,134 @@
+.chat{
+    flex: .65;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat_header{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+.chat_headerInfo{
+    flex: 1;
+    padding-left: 10px;
+}
+.chat_headerInfo > h3{
+    font-weight: 500;
+}
+.chat_headerInfo > p{
+    color: grey;
+}
+.chat_headerRight{
+    display: flex;
+    justify-content: space-between;
+    min-width: 100px;
+}
+.chat_headerRight .MuiSvgIcon-root {
+    /* margin-right: 2vw;  */
+    font-size: 22px !important;
+}
+
+
+
+.chat_body{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-image: url(./img/wp_background.png);
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: center;
+    padding: 20px;
+    overflow: scroll;
+}
+.chat_message{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-right: 4%;
+    padding-left: 4%;
+    align-items: flex-start;
+    margin-bottom: 12px;
+}
+.message_body {
+    border-top-right-radius: 0px;
+    border-radius: 7.5px;
+    background-color: white;
+    max-width: 95%;
+    position: relative;
+    flex: none;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 6px 7px 8px 9px;
+}
+.message_body > .message_header > span > a{
+    color: teal;
+    text-decoration: none;
+}
+.message_body > .message_header > span > a:hover{
+    text-decoration: underline;
+}
+.message_data{
+    margin-right: 70px;
+}
+.message_timestamp {
+    float: right;
+    position: relative;
+    height: 15px;
+    font-size: xx-small;
+    line-height: 13px;
+    z-index: 10;
+    margin: -10px 0 -5px 14px;
+}
+.chat_receiver{
+    align-items: flex-end;
+}
+.chat_receiverBody{
+    background-color: #dcf8c6;
+}
+
+
+
+.chat_footer{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.chat_input{
+    width: 100%;
+    padding: 15px;
+    height: 40px;
+    justify-items: center;
+}
+
+#message_input{
+    border-radius: 22px;
+    border: 1px solid white;
+    width: 98%;
+    /* font-size: 17px; */
+    line-height: 37px;
+    padding-left: 15px;
+}
+#message_input:focus{
+    outline: none;
+}
+button{
+    display: none;
+}
+
+::-webkit-scrollbar { 
+    width: 5px; 
+    /* height: 0px; */
+} 
+
+::-webkit-scrollbar-track {
+    background:transparent; 
+}
+
+::-webkit-scrollbar-thumb {
+    background:grey;
+}

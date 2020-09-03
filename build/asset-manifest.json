@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.85e3fee3.chunk.css",
+    "main.js": "/static/js/main.3474b16a.chunk.js",
+    "main.js.map": "/static/js/main.3474b16a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bb5b2b8f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bb5b2b8f.js.map",
+    "static/js/2.80d910bc.chunk.js": "/static/js/2.80d910bc.chunk.js",
+    "static/js/2.80d910bc.chunk.js.map": "/static/js/2.80d910bc.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.6a45ae7c9991a87ba5324377689013d7.js": "/precache-manifest.6a45ae7c9991a87ba5324377689013d7.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.85e3fee3.chunk.css.map": "/static/css/main.85e3fee3.chunk.css.map",
+    "static/js/2.80d910bc.chunk.js.LICENSE.txt": "/static/js/2.80d910bc.chunk.js.LICENSE.txt",
+    "static/media/Chat.css": "/static/media/wp_background.35f3e9c4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb5b2b8f.js",
+    "static/js/2.80d910bc.chunk.js",
+    "static/css/main.85e3fee3.chunk.css",
+    "static/js/main.3474b16a.chunk.js"
+  ]
+}
