@@ -1,5 +1,5 @@
 Live demo:
-    whatsapp-clone-c7e59.web.app
+    https://whatsapp-clone-c7e59.web.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
